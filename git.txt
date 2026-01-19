@@ -1,0 +1,62 @@
+═══════════════════════════════════════════════════════════════
+                        GIT REPOSITORY INFO
+═══════════════════════════════════════════════════════════════
+
+REPOSITORY NAME:
+  RoastMe (my-v0-project)
+
+DESCRIPTION:
+  A Next.js application built with React, TypeScript, and Radix UI components.
+  This project provides a roasting/review interface with theme support, form 
+  validation using React Hook Form, and a modern component library.
+
+VERSION:
+  0.1.0
+
+═══════════════════════════════════════════════════════════════
+                     FILES TO PUSH TO GIT
+═══════════════════════════════════════════════════════════════
+
+✓ Source Code:
+  - /app              (Next.js app directory with pages and API routes)
+  - /components       (React components including UI components and custom components)
+  - /hooks            (Custom React hooks)
+  - /lib              (Utility functions and helpers)
+  - /public           (Static assets)
+  - /styles           (Global stylesheets)
+
+✓ Configuration Files:
+  - package.json      (Project dependencies and scripts)
+  - tsconfig.json     (TypeScript configuration)
+  - next.config.mjs   (Next.js configuration)
+  - postcss.config.mjs (PostCSS configuration)
+  - components.json   (Component library configuration)
+
+✓ Documentation:
+  - README.md         (if available)
+  - git.txt           (this file)
+
+✗ DO NOT PUSH (in .gitignore):
+  - /node_modules     (install dependencies with: npm install)
+  - /.next            (build artifacts)
+  - /out              (production builds)
+  - /build            (build outputs)
+  - npm-debug.log*    (npm logs)
+  - yarn-debug.log*   (yarn logs)
+  - yarn-error.log*   (yarn error logs)
+  - .pnpm-debug.log*  (pnpm logs)
+  - .env files        (environment variables)
+  - package-lock.json (optional - use either npm or pnpm lock file)
+  - pnpm-lock.yaml    (optional - use either npm or pnpm lock file)
+
+═══════════════════════════════════════════════════════════════
+                     COMMON GIT COMMANDS
+═══════════════════════════════════════════════════════════════
+
+$ git status                    # Check what files need to be added
+$ git add .                     # Stage all changes
+$ git commit -m "message"       # Commit changes
+$ git push origin main          # Push to remote repository
+$ git log --oneline             # View commit history
+
+═══════════════════════════════════════════════════════════════
