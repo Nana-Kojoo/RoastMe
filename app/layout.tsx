@@ -12,20 +12,7 @@ export const metadata: Metadata = {
   description: 'Enter a GitHub username and get a playful, developer-style roast based on public GitHub activity.',
   generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
+    icon: '/github-icon-1.svg',
     apple: '/apple-icon.png',
   },
 }
