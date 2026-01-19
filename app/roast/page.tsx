@@ -85,9 +85,10 @@ export default function RoastPage() {
         )}
 
         {/* Footer */}
-        <p className="text-center text-xs text-muted-foreground mt-8">
-          Powered by the GitHub API. All in good fun.
-        </p>
+        <div className="text-center text-xs text-muted-foreground mt-8 space-y-1">
+          <p>Powered by the GitHub API. All in good fun.</p>
+          <p>Made by Nana kojo</p>
+        </div>
       </div>
     </main>
   )
